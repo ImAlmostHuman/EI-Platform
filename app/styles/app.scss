@@ -1,0 +1,31 @@
+// Fix for Roboto font path
+$roboto-font-path: '../assets/';
+$primary-col: #2b3990;
+// Materialize styles
+@import "materialize";
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .logo{
+  	height: 60px;
+  }
+
+nav, footer.page-footer {
+	background-color: $primary-col;
+}
+
+a.wht{
+	color:white;
+}
+
+.ember-webcam-viewer {
+	margin-bottom: 1rem;
+}

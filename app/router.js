@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('home');
+  this.route('confirm');
+  this.route('photo');
 });
 
 export default Router;

@@ -1,0 +1,6 @@
+{
+  "name": "vmsv",
+  "dependencies": {
+    "materialize": "0.97.6"
+  }
+}

@@ -1,0 +1,10 @@
+{{#ember-webcam
+  didSnap=(action 'didSnap')
+  didError=(action 'didError')
+  as |camera|}}
+  <button class="btn-large waves-effect waves-light orange" {{action camera.snap}}>
+    Take Snapshot!
+  </button>
+{{/ember-webcam}}
+ 
+<img src={{dataUri}}>
