@@ -1,6 +1,7 @@
 // Fix for Roboto font path
 $roboto-font-path: '../assets/';
 $primary-col: #2b3990;
+$secondary-col: #ff9800;
 // Materialize styles
 @import "materialize";
 
@@ -8,6 +9,7 @@ $primary-col: #2b3990;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url(/images/bg.png);
   }
 
   main {
@@ -28,4 +30,17 @@ a.wht{
 
 .ember-webcam-viewer {
 	margin-bottom: 1rem;
+}
+
+html {
+  color:white;
+}
+
+#index-banner {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 100vh;
+}
+
+footer.page-footer{
+  margin-top: 0px;
 }
