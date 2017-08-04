@@ -10,6 +10,8 @@ $secondary-col: #ff9800;
     min-height: 100vh;
     flex-direction: column;
     background-image: url(/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   main {
